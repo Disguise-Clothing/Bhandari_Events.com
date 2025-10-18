@@ -1,0 +1,321 @@
+.header{
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  color: white;
+  font-family:Arial ;
+  margin-top: -5px;
+  z-index: 1000;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 50px;
+}
+
+.logo{
+  width: 80px;
+  height: 100px;
+}
+
+.navigate-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigate-header div{
+  margin-right: 15px;
+}
+
+.Branding-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home{
+  margin-top: -10px;
+}
+
+
+.shop-container{
+  position:relative;
+  width: 800px;
+  height: 1250px;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  background-color: rgb(68, 68, 68);
+  color: white;
+  padding: 54px 35px;
+}
+
+body{
+  background-color: rgb(15,15,15);
+}
+
+
+.shop{
+  position: relative;
+  top:115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 130px;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-2{
+  display:flex;
+  gap: 10px;
+}
+
+.product-3{
+  display:flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.prod-img{
+  width: 430px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.dis-img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  gap: 5px;
+}
+
+.sizes button{
+  padding: 2px 6px;
+  border: 1px,solid;
+  border-color: rgba(245, 245, 245, 0.692);
+  background-color: rgba(0, 0, 0, 0);
+  color:white ;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.sizes-button:hover{
+  border-color: rgba(245, 245, 245, 0.986);
+}
+
+.sizes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 115px;
+  margin-top: 8px;
+}
+
+
+.proct{
+  display: flex;
+  align-items:start;
+  justify-content: space-between;
+  gap: 25px;
+}
+.heading{
+  font-family: Arial;
+  font-size: 14.72px;
+  color: rgba(245, 245, 245, 0.692);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.cat{
+  font-family: Arial;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.tee-name{
+  font-size: 30px;
+  font-family: Racing Sans One,Arial;
+  margin-bottom: 15px;
+}
+
+.cost{
+  font-family: Arial;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.og-cost{
+  color: rgba(245, 245, 245, 0.692);
+  text-decoration:line-through;
+}
+
+.quantity{
+  display:flex ;
+}
+
+.quantity input{
+  width: 25px;
+  padding-top:5px ;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  margin-right: 15px;
+}
+.quantity button{
+  padding:6px 12px 6px 12px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(247, 52, 52);
+}
+.SKU{
+  display: flex;
+  gap:15px;
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 15px;
+  color: rgba(245, 245, 245, 0.692);
+}
+
+.desc{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 8px 0;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.des{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.Features{
+  margin-bottom: 25px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.points div{
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.hea{
+  font-family: Racing Sans One , Arial;
+  font-size: 58px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.product-image{
+  width: 180px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.category{
+  font-family: Arial;
+  font-size: 13.6px;
+  color: rgba(245, 245, 245, 0.692);
+  margin-bottom: 6.8px;
+}
+.tee-name{
+  font-family: Racing Sans One,Arial;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.star{
+  font-size: 16px;
+}
+
+.costs{
+  font-family: Arial;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  height: 350px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  padding-top: 75px;
+}
+
+.logos{
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 25px;
+}
+
+.footer-top{
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.USEFUL-LINKS{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 55px;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-left:15px ;
+  margin-right:15px;
+  margin-top: 30px;
+}
+
+.various-web{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.various-web button{
+  border: none;
+  border-radius: 150px;
+  color:white;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.various-web i{
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: red;
+}
+.lines{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

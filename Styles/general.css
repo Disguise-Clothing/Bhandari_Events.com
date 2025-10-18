@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.navigate-header a{
+  color: white;
+  text-decoration: none;
+}
+.USEFUL-LINKS a{
+  color: white;
+  text-decoration: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
